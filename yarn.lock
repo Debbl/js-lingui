@@ -2934,6 +2934,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@lingui/unplugin@workspace:packages/unplugin":
+  version: 0.0.0-use.local
+  resolution: "@lingui/unplugin@workspace:packages/unplugin"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    "@lingui/cli": 5.4.0
+    "@lingui/conf": 5.4.0
+    "@lingui/format-json": 5.4.0
+    unbuild: 2.0.0
+    unplugin: ^2.3.5
+    webpack: ^5.76.1
+  languageName: unknown
+  linkType: soft
+
 "@lingui/vite-plugin@workspace:packages/vite-plugin":
   version: 0.0.0-use.local
   resolution: "@lingui/vite-plugin@workspace:packages/vite-plugin"
@@ -4815,6 +4829,15 @@ __metadata:
   bin:
     acorn: bin/acorn
   checksum: 8755074ba55fff94e84e81c72f1013c2d9c78e973c31231c8ae505a5f966859baf654bddd75046bffd73ce816b149298977fff5077a3033dedba0ae2aad152d4
+  languageName: node
+  linkType: hard
+
+"acorn@npm:^8.14.1":
+  version: 8.15.0
+  resolution: "acorn@npm:8.15.0"
+  bin:
+    acorn: bin/acorn
+  checksum: 309c6b49aedf1a2e34aaf266de06de04aab6eb097c02375c66fdeb0f64556a6a823540409914fb364d9a11bc30d79d485a2eba29af47992d3490e9886c4391c3
   languageName: node
   linkType: hard
 
@@ -15507,6 +15530,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"unplugin@npm:^2.3.5":
+  version: 2.3.5
+  resolution: "unplugin@npm:2.3.5"
+  dependencies:
+    acorn: ^8.14.1
+    picomatch: ^4.0.2
+    webpack-virtual-modules: ^0.6.2
+  checksum: 63ee3a206a05aaa9aa2faf00bf59fb1e63c2bf1d0cd37fdd5b5d178bd8f34d009755a3122a02ce412c0153cc152c826ef7e17744148b7ab8d9292db96d4d8ccc
+  languageName: node
+  linkType: hard
+
 "untyped@npm:^1.4.0":
   version: 1.4.0
   resolution: "untyped@npm:1.4.0"
@@ -15805,6 +15839,13 @@ __metadata:
   version: 3.2.3
   resolution: "webpack-sources@npm:3.2.3"
   checksum: 989e401b9fe3536529e2a99dac8c1bdc50e3a0a2c8669cbafad31271eadd994bc9405f88a3039cd2e29db5e6d9d0926ceb7a1a4e7409ece021fe79c37d9c4607
+  languageName: node
+  linkType: hard
+
+"webpack-virtual-modules@npm:^0.6.2":
+  version: 0.6.2
+  resolution: "webpack-virtual-modules@npm:0.6.2"
+  checksum: 7e8e1d63f35864c815420cc2f27da8561a1e028255040698a352717de0ba46d3b3faf16f06c1a1965217054c4c2894eb9af53a85451870e919b5707ce9c5822d
   languageName: node
   linkType: hard
 

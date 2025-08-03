@@ -1,0 +1,57 @@
+{
+  "name": "@lingui/unplugin",
+  "version": "5.4.0",
+  "description": "unplugin loader for lingui message catalogs",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "sideEffects": false,
+  "author": {
+    "name": "Tomáš Ehrlich",
+    "email": "tomas.ehrlich@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "unplugin",
+    "unplugin-loader",
+    "i18n",
+    "internationalization",
+    "i10n",
+    "localization",
+    "i9n",
+    "translation",
+    "multilingual"
+  ],
+  "scripts": {
+    "build": "rimraf ./dist && unbuild",
+    "stub": "unbuild --stub"
+  },
+  "homepage": "https://lingui.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lingui/js-lingui.git",
+    "directory": "packages/loader"
+  },
+  "bugs": {
+    "url": "https://github.com/lingui/js-lingui/issues"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist/"
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.20.13",
+    "@lingui/cli": "5.4.0",
+    "@lingui/conf": "5.4.0",
+    "unplugin": "^2.3.5"
+  },
+  "devDependencies": {
+    "@lingui/format-json": "5.4.0",
+    "unbuild": "2.0.0",
+    "webpack": "^5.76.1"
+  }
+}
